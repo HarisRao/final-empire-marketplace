@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Gotham-Font";
+  src: local("Gotham-Font"),
+    url("../src/fonts/Gotham-Font/GothamBook.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gotham-Font-bold";
+  src: local("Gotham-Font"),
+    url("../src/fonts/Gotham-Font/GothamBold.ttf") format("truetype");
+}
+body {
+  margin: 0;
+
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Gotham-Font-bold";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

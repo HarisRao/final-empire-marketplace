@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Gotham-Font-Navbar";
+  src: local("Gotham-Font"),
+    url('../../fonts/Gotham-Font/GothamMedium_1.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Gotham-Font-Searchfield";
+  src: local("Gotham-Font"),
+    url('../../fonts/Gotham-Font/GothamLight.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Gotham-Font-CollectableFont";
+  src: local("Gotham-Font"),
+    url('../../fonts/Gotham-Font/GothamBook.ttf') format("truetype");
+}
+.connect-wallet-page{
+  font-family: 'Gotham-Font-Navbar';
+  color: white;
+}
+.connect-wallet-text{
+  font-family: 'Gotham-Font-CollectableFont';
+  word-spacing: 2px;
+}
+.wallet-btn{
+  border-radius: 10px;
+  filter: drop-shadow(0 0 2.5px rgba(19,19,19,0.16));
+  background-image: radial-gradient(circle at center, #1f4169 0%, #0f2135 100%);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+#connect-bg-logo{
+  opacity: 0.1;
+  position: absolute;
+  top: 7%;
+  left: 25%;
+  width: 50%;
+}

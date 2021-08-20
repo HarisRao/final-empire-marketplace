@@ -1,0 +1,43 @@
+[
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "contract IERC721",
+				"name": "collectionAddress",
+				"type": "address"
+			}
+		],
+		"name": "NewCollection",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "symbol",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "startId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "royaltypercent",
+				"type": "uint256"
+			}
+		],
+		"name": "createNewCollection",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

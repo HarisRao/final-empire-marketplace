@@ -1,0 +1,281 @@
+#main-wallet-div{
+    /* background-color: #051427; */
+}
+@font-face {
+    font-family: "Gotham-Font-Bold";
+    src: local("Gotham-Font"),
+      url("../../fonts/Gotham-Font/GothamBold.ttf") format("truetype");
+}
+
+#create-wallet{
+    font-family: "Gotham-Font-Bold";
+}
+
+.active{
+    background: none !important;
+}
+
+@font-face {
+    font-family: "Gotham-Font-Tabs";
+    src: local("Gotham-Font"),
+      url("../../fonts/Gotham-Font/GothamBook.ttf") format("truetype");
+}
+.settings-tab{
+    padding: 12px 12px;
+    font-family: "Gotham-Font-Tabs";
+    cursor: pointer;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    border: 1px solid #102135 !important;
+}
+.nav-tabs .nav-link:hover{
+    background: radial-gradient(#204169 , #102135)!important;
+
+}
+
+#wallet-div{
+    border-radius: 8px;
+    width:80%;
+    background-color: #051427 !important;  
+    -moz-box-shadow:inset 0 0 15px #202d3d;
+    -webkit-box-shadow:inset 0 0 15px  #202d3d;
+    box-shadow:inset 0 0 15px  #202d3d;
+    border: none;
+    word-break: break-all;
+    padding: 20px 0px 20px 0px;
+}
+
+#fa-copy{
+    position: absolute;
+    top:34%;
+    right: 22%;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+
+}
+#copy-text{
+    color: white !important;
+    position: absolute !important;
+    right: 20% !important;
+    top:74% !important;
+    font-family: "Gotham-Font-Address";
+   
+}
+@media (max-width:767px){
+    #wallet-div{
+        width: 100%;
+    }
+    #fa-copy{
+        top:34%;
+        right:2%;
+    }
+    #copy-text{
+        right: 3% !important;
+
+       
+    }
+}
+
+
+
+
+@media (max-width:478px){
+    #fa-copy{
+        top:55%;
+        right:2%;
+    }
+    #copy-text{
+        right:5% !important
+    }
+}
+@font-face {
+    font-family: "Gotham-Font-Address";
+    src: local("Gotham-Font"),
+      url("../../fonts/Gotham-Font/GothamBookItalic.ttf") format("truetype");
+}
+#wallet-address-font{
+    font-family: "Gotham-Font-Address";
+}
+
+#add-fund-button{
+    background-image: linear-gradient(
+        to right,
+        #18e9d9 0%,
+        #4fa4e1 51%,
+        #875fea 100%
+      );
+      background-color: transparent;
+      border: none;
+      border-radius: 18px;
+      padding: 5px 30px 9px 30px !important;
+      font-size: 1.2rem;
+      font-family: "Gotham-Font-MyWallet";
+}
+#logout-button{
+      background-color: transparent;
+      border: 2px solid #45a4e1;
+      border-radius: 18px;
+      padding: 3px 30px 7px 30px !important;
+      font-size: 1.2rem;
+      font-family: "Gotham-Font-MyWallet";
+
+}
+@font-face {
+    font-family: "Gotham-Font-MyWallet";
+    src: local("Gotham-Font"),
+      url("../../fonts/Gotham-Font/GothamLight.ttf") format("truetype");
+}
+
+#my-wallet{
+    font-family: "Gotham-Font-MyWallet";
+}
+
+#image-general-circle{
+    border-radius: 50%;
+    border: 2px dashed #4fa4e1 !important;
+    object-fit: none;
+    background:radial-gradient(#204169 , #102135);
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+}
+
+@font-face {
+    font-family: "Gotham-Font-Label";
+    src: local("Gotham-Font"),
+      url("../../fonts/Gotham-Font/GothamBook.ttf") format("truetype");
+}
+.general-label{
+    font-family: "Gotham-Font-Label";
+}
+
+@font-face {
+    font-family: "Gotham-Font-italic";
+    src: local("Gotham-Font"),
+      url("../../fonts/Gotham-Font/GothamLightItalic.ttf") format("truetype");
+}
+.general-form::placeholder{
+    color: white;
+    font-family: "Gotham-Font-italic" !important;
+
+}
+.general-form{
+    background-color: #051427 !important;  
+    -moz-box-shadow:inset 0 0 10px #202d3d;
+    -webkit-box-shadow:inset 0 0 10px  #202d3d;
+     box-shadow:inset 0 0 10px  #202d3d;
+    font-family: "Gotham-Font-italic" !important;
+    border: none;
+}
+.general-form:focus{
+    box-shadow: none !important;
+}
+#profile-image{
+    width: 30%;
+}
+@font-face {
+    font-family: "Gotham-Font-GeneralSettings";
+    src: local("Gotham-Font"),
+      url("../../fonts/Gotham-Font/GothamBold.ttf") format("truetype");
+}
+#general-settings{
+    font-family: "Gotham-Font-GeneralSettings";
+}
+@media (max-width:415px){
+    #general-settings{
+        font-size: 35px;
+    }
+}
+@media (max-width:355px){
+    #general-settings{
+        font-size: 28px;
+    }
+}
+
+
+
+#notify-div{
+    background:radial-gradient(#204169 , #102135);
+    width: 92%;
+    border-radius: 12px;
+}
+
+@font-face {
+    font-family: "Gotham-Font-notifyDes";
+    src: local("Gotham-Font"),
+      url("../../fonts/Gotham-Font/GothamLight.ttf") format("truetype");
+}
+#notify-description-font{
+    font-family: "Gotham-Font-notifyDes";
+}
+@font-face {
+    font-family: "Gotham-Font-notifyHead";
+    src: local("Gotham-Font"),
+      url("../../fonts/Gotham-Font/GothamBook.ttf") format("truetype");
+}
+#notify-header-font::before{
+    font-family: "Gotham-Font-notifyHead";
+    /* margin-top: 10px !important;
+    margin-left: -8px !important; */
+}
+#notify-check{
+    margin-left: 0px;
+}
+
+input[type="checkbox"]:checked+label:before{
+    background-image: radial-gradient( #103061,#031f48);  
+
+ }
+ 
+.custom-checkbox .custom-control-label::before{
+    background-image: radial-gradient( #103061,#031f48);  
+}
+#notify-box{
+    margin-left: 30px !important;
+}
+
+#appear-button{
+    border-radius: 10px;
+    padding: 8px 30px 5px 30px !important;
+    font-size: 1.2rem;
+    font-family: "Gotham-Font-MyWallet";
+}
+.fa-adjust{
+    font-size: 24px;
+}
+.flag-select__btn{
+    background-image: linear-gradient(to right,#18e9d9 0%,#4fa4e1 51%,#875fea 100%) !important;
+      background-color: transparent !important;
+      border: none;
+      border-radius: 15px;
+      padding:2px 15px !important;
+      font-size: 1.2rem;
+      font-family: "Gotham-Font-MyWallet";
+      color:white !important
+}
+.flag-select__options{
+    margin-left: 8px;
+    padding: 8px 18px !important;
+}
+
+.flag-select__btn[aria-expanded=true]:after{
+    border-bottom: 5px solid white !important;
+    border-top: 0px !important;
+}
+
+.flag-select__btn:after{
+    border-top: 5px solid white !important;
+    border-bottom: 0px !important;
+
+}
+.flag-select,.flag-select__btn{
+    outline: none !important;
+}
+
+body{
+    /* background-color:teal; */
+}

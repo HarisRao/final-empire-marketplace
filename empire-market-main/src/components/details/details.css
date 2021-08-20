@@ -1,0 +1,264 @@
+@font-face {
+    font-family: "Gotham-Font-owned";
+    src: local("Gotham-Font"),
+      url("../../fonts/Gotham-Font/GothamBook.ttf") format("truetype");
+  }
+
+#owned-font{
+    font-family: "Gotham-Font-owned";
+
+}
+#person-name{
+    background: -webkit-linear-gradient(#29deda, #45aef1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@font-face {
+    font-family: "Gotham-Font-follow";
+    src: local("Gotham-Font"),
+      url("../../fonts/Gotham-Font/GothamBook.ttf") format("truetype");
+  }
+#follow-btn{
+    background-color: transparent;
+    border: none !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+    background-image: linear-gradient(to right,#29deda 0%,#45aef1 51%,#8562ea 100%) !important;
+    border-radius: 15px;
+    padding: 8px 26px;
+    font-family: "Gotham-Font-follow";
+
+}
+#share-btn{
+    background-color: transparent;
+    border: none !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+    background-image: linear-gradient(to right,#29deda 0%,#45aef1 51%,#8562ea 100%) !important;
+    border-radius: 50%;
+    padding:6px 12px 7px 12px;
+    font-family: "Gotham-Font-follow";
+}
+#msg-btn{
+    background-color: transparent;
+    border: none !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+    background-image: linear-gradient(to right,#29deda 0%,#45aef1 51%,#8562ea 100%) !important;
+    border-radius: 50%;
+    padding:10px 12px 6px 12px;
+    font-family: "Gotham-Font-follow";
+}
+#buy-btn{
+    background-color: transparent;
+    border: none !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+    background-image: linear-gradient(to right,#29deda 0%,#45aef1 51%,#8562ea 100%) !important;
+    border-radius: 18px;
+    padding:7px 12px;
+    font-family: "Gotham-Font-place-bid-btn";
+}
+#content-bg{
+    background: none !important;
+    border-radius: 22px;
+    background: radial-gradient(#204169 , #102135) !important;
+    padding: 0px 0px;
+}
+#input-bg{
+    background-color: #051427;
+    border: none;
+    border-radius: 5px;
+    font-family: "Gotham-Font-follow" !important;
+    border-top: 3px solid #212e3e;
+    border-left: 3px solid #212e3e;
+    box-shadow: 2px 2px  #212e3e;
+
+}
+#input-bg:focus{
+    box-shadow: none !important;
+}
+#input-bg::placeholder{
+    color:white;
+    font-family: "Gotham-Font-follow" !important;
+
+}
+@font-face {
+    font-family: "Gotham-Font-place-bid-btn";
+    src: local("Gotham-Font"),
+      url("../../fonts/Gotham-Font/GothamMedium.ttf") format("truetype");
+  }
+#place-bid-btn{
+    background-color: transparent;
+    border: none !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+    background-image: linear-gradient(to right,#29deda 0%,#45aef1 51%,#8562ea 100%) !important;
+    border-radius: 10px;
+    padding:7px 18px;
+    font-family: "Gotham-Font-place-bid-btn";
+
+}
+#eye-icon{
+    position: absolute;
+    left: 35px;
+    bottom: 35px;
+}
+#heart-icon{
+    position: absolute;
+    right: 40px;
+    bottom: 35px;
+}
+#price-select{
+    width: 80%;
+    border: none;
+    color: white !important;
+}
+#price-select > div{
+    border: none !important;
+    background: #051427 !important;
+}
+
+@font-face {
+    font-family: "Gotham-Font-price";
+    src: local("Gotham-Font"),
+      url("../../fonts/Gotham-Font/GothamLight.ttf") format("truetype");
+  }
+#price-select > div > div > div{
+    color:white !important;
+    font-family: "Gotham-Font-price";
+    /* background-color: #051427; */
+}
+#price-select > div > div > div:hover{
+    color:white !important;
+    font-family: "Gotham-Font-price";
+    background-color: #051427;
+}
+
+
+
+
+#details-address{
+    background: -webkit-linear-gradient(#29deda, #45aef1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Gotham-Font-owned";
+
+}
+#highest-bid{
+    background:linear-gradient(to right,#29deda 0%,#45aef1 51%,#8562ea 100%) ;
+    border-radius: 22px;
+}
+
+#highest-bid-price{
+    background: -webkit-linear-gradient(#29deda, #45aef1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Gotham-Font-owned";
+    font-size: 16px;
+}
+#latest-img{
+    width:100%
+}
+@media (max-width:1200px){
+    #latest-img{
+        width:60px;
+        height: 60px;
+    }
+}
+@media (max-width:991px){
+    #latest-img{
+        width:92px;
+        height:92px
+    }
+}
+@media (max-width:568px){
+    #latest-img{
+        width:100px !important;
+        height:100px
+    }
+}
+#bid-image{
+    border-radius:50%;
+    width:40%
+}
+@media (max-width:992px){
+    #bid-image{
+        width:24%
+    }
+}
+#bid-logo{
+    width:60%
+}
+#bid-font{
+    font-size: 20px;
+}
+#bid-name{
+    font-family: "Gotham-Font-owned";
+    font-size: 16px;
+
+}
+@media (max-width:992px){
+    #bid-logo{
+        width:28%
+    }
+    #bid-font{
+        font-size: 40px;
+    }
+    #highest-bid-price{
+        font-size: 30px;
+    }
+    #bid-name{
+        font-size: 30px;
+    
+    }
+}
+@media (max-width:410px){
+    #highest-bid-price{
+        font-size: 20px;
+    }
+    #bid-name{
+        font-size: 20px;
+    
+    }
+}
+/* @media (max-width:575px){
+    #latest-img{
+        width:35%
+    }
+    
+} */
+#detail-share{
+    padding: 0px;
+    margin-top: 0px;
+
+}
+#detail-share::after{
+    display: none;
+}
+#share-menu.dropdown-menu.show{
+    left:-30px !important;
+    top: 3px !important;
+    display: flex !important;
+    padding: 0px 8px !important;
+    background:transparent;
+    border: none !important;
+}
+
+#current-price-font{
+    background: -webkit-linear-gradient(#29deda, #45aef1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media (max-width:444px){
+    #current-price{
+        font-size: 20px;
+    }
+    #current-price-font{
+        font-size: 16px;
+    }   
+}
+
+@media (max-width:380px){
+    #current-price{
+        font-size: 16px;
+    }
+    #current-price-font{
+        font-size: 12px;
+    }   
+}

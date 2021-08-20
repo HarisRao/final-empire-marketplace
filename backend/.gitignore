@@ -1,0 +1,6 @@
+config.js
+.env
+/node_modules
+/public/nfts
+/public/profilepics
+/public/collections

@@ -1,0 +1,610 @@
+/* Navbar */
+
+@font-face {
+  font-family: "Gotham-Font-Navbar";
+  src: local("Gotham-Font"),
+    url("../../fonts/Gotham-Font/GothamMedium_1.ttf") format("truetype");
+}
+
+#navbar-link,#navbar-link-create-collection {
+  text-decoration: none;
+  color: white;
+  font-family: "Gotham-Font-Navbar";
+  font-size: 18px !important;
+}
+@media (min-width:992px) and (max-width:1118px){
+  #navbar-link-create-collection{
+    text-align: center;
+    margin-top: -27px;
+  }
+}
+
+#search-field-nav {
+  position: relative;
+  background-color: #152a45;
+  border: none;
+  border-radius: 13px;
+  padding: 9px 0px 13px 20px !important;
+}
+@font-face {
+  font-family: "Gotham-Font-Searchfield";
+  src: local("Gotham-Font"),
+    url("../../fonts/Gotham-Font/GothamLight.ttf") format("truetype");
+}
+#search-field-nav::placeholder {
+  color: white;
+  font-size: 0.85rem;
+  font-family: "Gotham-Font-Searchfield";
+}
+#search-field-nav {
+  font-family: "Gotham-Font-Searchfield";
+}
+#search-icon-nav {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+  font-size: 15px !important;
+  color: #45aef1 !important;
+}
+.act {
+  background: linear-gradient(to right, #29deda 0%, #45aef1 51%, #8562ea 100%)
+    left bottom no-repeat !important;
+  background-size: 100% 2px !important;
+}
+@font-face {
+  font-family: "Gotham-Font-ConnectButton";
+  src: local("Gotham-Font"),
+    url("../../fonts/Gotham-Font/GothamLight.ttf") format("truetype");
+}
+#connect-btn-nav {
+  background-color: transparent;
+  border: none !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+  background-image: linear-gradient(
+    to right,
+    #29deda 0%,
+    #45aef1 51%,
+    #8562ea 100%
+  );
+  border-radius: 8px;
+  font-family: "Gotham-Font-ConnectButton";
+  font-weight: 700;
+  margin-right: -14px;
+}
+@media (max-width: 992px) {
+  #connect-btn-nav {
+    display: none;
+  }
+  #search-field-nav {
+    display: none;
+  }
+}
+#connect-btn-nav-displayOnToggler {
+  background-color: transparent;
+  border: none !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+  background-image: linear-gradient(
+    to right,
+    #29deda 0%,
+    #45aef1 51%,
+    #8562ea 100%
+  );
+  border-radius: 8px;
+  font-family: "Gotham-Font-ConnectButton";
+  font-weight: 700;
+  margin-right: -14px;
+  display: none;
+}
+#on-taggleScreen-show{
+  display: none;
+}
+#navbar-logo {
+  width: 90px !important;
+}
+@media (max-width: 359px) {
+  #navbar-logo {
+    width: 70px !important;
+  }
+}
+@media (max-width: 991px) {
+  #connect-btn-nav-displayOnToggler,#on-taggleScreen-show{
+    display: block;
+  }
+  #btn-wallet-hide{
+    display: none;
+  }
+}
+@media (max-width: 410px) {
+  #connect-btn-nav-displayOnToggler {
+    padding: 6px 8px !important ;
+    margin-right: 4px !important;
+  }
+}
+
+html {
+  overflow-x: hidden;
+}
+
+#main-marketplace-div {
+  /* background-color:#051427; */
+  background: url("../../images/navbar.png");
+  background-size: cover;
+  height: 525px;
+}
+@media (max-width: 1175px) {
+  #main-marketplace-div {
+    height: 450px;
+  }
+}
+@media (max-width: 1035px) {
+  #main-marketplace-div {
+    height: 400px;
+  }
+}
+@media (max-width: 991px) {
+  #main-marketplace-div {
+    height: 350px;
+  }
+}
+@media (max-width: 732px) {
+  #main-marketplace-div {
+    height: 290px;
+  }
+}
+@media (max-width: 568px) {
+  #main-marketplace-div {
+    height: 250px;
+  }
+}
+@media (max-width: 420px) {
+  #main-marketplace-div {
+    height: 220px;
+  }
+}
+.middle-content-section {
+  z-index: 1;
+  top: 65px;
+  position: relative;
+}
+@media (max-width: 786px) {
+  #marketplace-browse-font {
+    font-size: 50px;
+  }
+}
+@media (max-width: 544px) {
+  #marketplace-browse-font {
+    font-size: 40px;
+  }
+}
+#market-collectables-box {
+  border-radius: 10px;
+  -moz-box-shadow: inset 0 0 20px #202d3d;
+  -webkit-box-shadow: inset 0 0 20px #202d3d;
+  box-shadow: inset 0 0 20px #202d3d;
+  background: #051427 !important;
+  padding: 10px 18px;
+}
+@font-face {
+  font-family: "Gotham-Font-CollectableFont";
+  src: local("Gotham-Font"),
+    url("../../fonts/Gotham-Font/GothamBook.ttf") format("truetype");
+}
+#collectables-font,
+.dropdown-toggle,
+.custom-control-label,
+#checkbox-header,
+#min-placeholder,
+#max-placeholder,
+.css-1wa3eu0-placeholder {
+  font-family: "Gotham-Font-CollectableFont";
+}
+
+.dropdown-toggle {
+  background: none;
+  border: none;
+}
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+  background: none;
+}
+#sort-dropdown-menu{
+  color:white;
+  text-align: center;
+  font-family: "Gotham-Font-CollectableFont";
+  cursor: pointer !important;
+}
+
+/* .dropdown-menu {
+  min-width: 0;
+} */
+#checkbox-border {
+  border-radius: 10px;
+  -moz-box-shadow: inset 0 0 30px #202d3d;
+  -webkit-box-shadow: inset 0 0 30px #202d3d;
+  box-shadow: inset 0 0 30px #202d3d;
+  background: #051427 !important;
+}
+#checkbox-header {
+  background: linear-gradient(to right, #29deda 0%, #45aef1 51%, #8562ea 100%)
+    left bottom no-repeat;
+  background-size: 100% 1px;
+}
+
+
+
+input[type="checkbox"]:checked + label:before {
+  background-color: #031f47 !important;
+}
+
+.custom-checkbox .custom-control-label::before {
+  background-image: linear-gradient(#031f47, #031f48);
+}
+
+
+
+
+.scrollarea .scrollbar-container.vertical {
+  right: 9px !important;
+  top: 12px !important;
+}
+.scrollarea .scrollbar-container.vertical .scrollbar {
+  width: 6px !important;
+}
+.scrollarea .scrollbar-container {
+  opacity: 1 !important;
+}
+.scrollbar {
+  border-radius: 12px !important;
+  height: 328px !important;
+  background-image: linear-gradient(#29deda, #45aef1, white 70%) !important;
+}
+.css-yk16xz-control {
+  background: none !important;
+  border-radius: 10px;
+  -moz-box-shadow: inset 0 0 10px #202d3d;
+  -webkit-box-shadow: inset 0 0 10px #202d3d;
+  box-shadow: inset 0 0 10px #202d3d;
+  background: #051427 !important;
+  border: 1px solid white !important;
+}
+.css-g1d714-ValueContainer {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) and (max-width: 883px) {
+  .css-1wa3eu0-placeholder {
+    font-size: 12px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1172px) {
+  .css-1wa3eu0-placeholder {
+    font-size: 12px !important;
+  }
+}
+@media (min-width: 290px) and (max-width: 335px) {
+  .css-1wa3eu0-placeholder {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 486px) {
+  #filter-header-font {
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 450px) {
+  #marketplace-browse-font {
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 345px) {
+  #marketplace-browse-font {
+    font-size: 26px !important;
+  }
+}
+
+@media (max-width: 389px) {
+  #collectables-font {
+    font-size: 15px !important;
+  }
+  .dropdown-toggle {
+    font-size: 15px !important;
+    padding-top: 6px;
+  }
+}
+
+#min-placeholder,
+#max-placeholder {
+  background: none;
+  padding-left: 25px;
+  border: 1px solid white;
+}
+#min-placeholder::placeholder,
+#max-placeholder::placeholder {
+  color: white;
+}
+@font-face {
+  font-family: "Gotham-Font-ApplyBtn";
+  src: local("Gotham-Font"),
+    url("../../fonts/Gotham-Font/GothamMedium.ttf") format("truetype");
+}
+#apply-btn {
+  background-color: transparent;
+  border: none !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+  background-image: linear-gradient(
+    to right,
+    #29deda 0%,
+    #45aef1 51%,
+    #8562ea 100%
+  );
+  border-radius: 5px;
+  padding: 6px 22px;
+  font-family: "Gotham-Font-ApplyBtn";
+}
+
+.react-multiple-carousel__arrow {
+  background: none !important;
+}
+.react-multiple-carousel__arrow:focus {
+  outline: none !important;
+}
+.react-multiple-carousel__arrow--right {
+  right: calc(4% + -16px);
+}
+.react-multiple-carousel__arrow--left {
+  left: calc(4% + -16px);
+}
+.react-multiple-carousel__arrow::before {
+  /* color:#45aef1 !important; */
+  background: -webkit-linear-gradient(#29deda, #45aef1, #8562ae);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px !important;
+}
+.react-multiple-carousel__arrow:hover {
+  background: none !important;
+}
+.fa-sort-down {
+  color: white !important;
+  font-size: 26px !important;
+}
+
+@media (min-width: 768px) {
+  .fa-sort-down {
+    display: none !important;
+  }
+  #status-none,
+  #price-none,
+  #collection-none,
+  #category-none {
+    display: block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #status-none,
+  #price-none,
+  #collection-none,
+  #category-none {
+    display: none;
+  }
+}
+.scrollarea {
+  height: 360px;
+}
+
+#market-bg-logo {
+  opacity: 0.1;
+  position: absolute;
+  top: 7%;
+  left: 15%;
+  width: 80%;
+}
+
+.user-icon-circle::after{
+  display: none;
+  }
+
+
+.btn-secondary:hover {
+  background: none;
+  border: none;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.btn-secondary.focus,
+.btn-secondary:focus {
+  box-shadow: none;
+}
+
+.dropdown-menu.dropdown-menu-right.show {
+  /* background-color: #051427; */
+  background: none !important;
+  border-radius: 10px;
+  background: radial-gradient(#051427, #102135) !important;
+  border: 1px solid white !important;
+  padding: 0px 0px;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background: none;
+}
+.dropdown-item {
+  padding: 6px 0px;
+}
+.dropdown-toggle.btn.btn-secondary {
+  margin-top: 4px;
+  padding-bottom: 0px;
+}
+
+/* sidebar-div */
+#sidebar-div {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 9999;
+  height: 100%;
+  background: #051427;
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
+}
+@media (max-width:450px){
+  #sidebar-div{
+    width:345px !important
+  }
+}
+@media (max-width:344px){
+  #sidebar-div{
+    width:300px !important
+  }
+}
+
+@font-face {
+  font-family: "Gotham-Font-sidebar-wallet-font";
+  src: local("Gotham-Font"),
+    url("../../fonts/Gotham-Font/GothamBold.ttf") format("truetype");
+}
+#sidebar-wallet-font {
+  font-family: "Gotham-Font-sidebar-wallet-font";
+  font-size: 30px;
+}
+@font-face {
+  font-family: "Gotham-Font-sidebar-wallet-address-font";
+  src: local("Gotham-Font"),
+    url("../../fonts/Gotham-Font/GothamLight.ttf") format("truetype");
+}
+
+#sidebar-wallet-address-font {
+  font-family: "Gotham-Font-sidebar-wallet-address-font";
+  font-size: 18px;
+}
+@font-face {
+  font-family: "Gotham-Font-empire-price";
+  src: local("Gotham-Font"),
+    url("../../fonts/Gotham-Font/GothamMedium.ttf") format("truetype");
+}
+#empire-price {
+  font-family: "Gotham-Font-empire-price";
+  background: -webkit-linear-gradient(#29deda, #45aef1, #8562ae);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+#sidebar-price-bg {
+  border-radius: 10px;
+  background: none !important;
+  -moz-box-shadow: inset 0 0 15px #202d3d;
+  -webkit-box-shadow: inset 0 0 15px #202d3d;
+  box-shadow: inset 0 0 15px #202d3d;
+  background: #051427 !important;
+}
+@font-face {
+  font-family: "Gotham-Font-sidebar-btn";
+  src: local("Gotham-Font"),
+    url("../../fonts/Gotham-Font/GothamLight.ttf") format("truetype");
+}
+#sidebar-btn {
+  background-color: transparent;
+  border: none !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+  background-image: linear-gradient(
+    to right,
+    #29deda 0%,
+    #45aef1 51%,
+    #8562ea 100%
+  );
+  border-radius: 8px;
+  padding: 8px 64px;
+  font-family: "Gotham-Font-sidebar-btn";
+  font-size: 22px !important;
+}
+
+#sidebar-copy-address {
+  position: absolute;
+  top: 58%;
+  right: 22%;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+#copy-address {
+  color: white !important;
+  position: absolute !important;
+  right: 16% !important;
+  top: 75% !important;
+  font-family: "Gotham-Font-Address";
+}
+
+#deposit-btn {
+  background-color: transparent;
+  border: none !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+  background-image: linear-gradient(
+    to right,
+    #29deda 0%,
+    #45aef1 51%,
+    #8562ea 100%
+  );
+  border-radius: 8px;
+  padding: 4px 30px;
+  font-family: "Gotham-Font-sidebar-btn";
+  font-size: 20px !important;
+}
+#deposit-exchange-btn {
+  background-color: transparent;
+  border: none !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+  background-image: linear-gradient(
+    to right,
+    #29deda 0%,
+    #45aef1 51%,
+    #8562ea 100%
+  );
+  border-radius: 8px;
+  padding: 8px 30px;
+  font-family: "Gotham-Font-sidebar-btn";
+  font-size: 20px !important;
+}
+
+#sidebar-copy-address-in-deposit {
+  position: absolute;
+  top: 46%;
+  right: 6%;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+#copy-address-from-field {
+  color: white !important;
+  position: absolute !important;
+  right: 2% !important;
+  top: 52% !important;
+  font-family: "Gotham-Font-Address";
+}
+
+#close-sidebar {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 5px;
+  right: 9px;
+  display: block;
+  z-index: 9999;
+  cursor: pointer;
+}
+.btn-group{
+  margin-top: -10px !important;
+}
+@media(max-width:451px){
+  #sidebar-copy-address-in-deposit {
+    top: 48%;
+    right: 8%;
+
+  }
+
+}
